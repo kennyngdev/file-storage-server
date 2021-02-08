@@ -1,0 +1,123 @@
+.App {
+  margin: 0 auto;
+  font-family: "Verdana";
+
+}
+
+.AppHeader {
+  background-color: #5c75c7c0;
+
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: 600;
+  color: white;
+  margin-bottom: 5px;
+  box-shadow: rgba(0, 0, 0, 0.185) 0px 5px 5px;
+}
+
+.Container {
+  padding-top: 2vh;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.IndexRow {
+  font-size: 18px;
+  margin-top: 0px;
+  display: flex;
+  border-bottom: rgba(0, 0, 0, 0.329) solid 0.5px;
+  padding-left: 2.5rem;
+}
+
+.IndexRow h2 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.712);
+  width: auto;
+}
+
+.IndexRow #IndexSize {
+  position: absolute;
+  right: 40%;
+}
+
+.IndexRow #IndexDate {
+  position: absolute;
+  left: 71.2%;
+
+}
+
+ul {
+  display: block;
+}
+
+li {
+  display: inline-block;
+  margin-top: -20px;
+}
+
+
+.FileList {
+  display: flex;
+  padding-bottom: 5px;
+  color: rgba(0, 0, 0, 0.924);
+
+}
+
+.fileName {
+  width: 45vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.fileSize {
+  position: absolute;
+  right: 40%;
+}
+
+.fileDate {
+  position: absolute;
+  left: 71.2%;
+  width: 20vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hide {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  display: none
+}
+
+.UploadButton {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 1.7rem;
+  padding-right: 2rem;
+}
+
+.DeleteButton {
+  padding-top: 0.6em;
+  position: absolute;
+  right: 4%;
+  color: rgba(187, 39, 39, 0.787)
+}
+
+.DeleteButton :hover {
+  cursor: pointer;
+}
