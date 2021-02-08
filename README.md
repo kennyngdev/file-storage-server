@@ -1,6 +1,6 @@
 # File Storage Server
 
-This is a file storage server service created by Kenny Ng.
+This is a file storage server service in Python, Nginx and React, all wrapped up in Docker. This App is created by Kenny Ng.
 
 ## User Manual
 
