@@ -1,4 +1,4 @@
-# File Storage Server
+# File Storage Service
 
 This is a file storage server service in Python, Nginx and React, all wrapped up in Docker. This App is created by Kenny Ng.
 
